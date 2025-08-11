@@ -11,9 +11,9 @@ driver: WebDriver= webdriver.Chrome(service=Service(ChromeDriverManager().instal
 #login
 driver.get('https://www.facebook.com/')
 z: WebElement = driver.find_element(by=By.ID,value='email')
-z.send_keys('valoranthighlights10@gmail.com')
+z.send_keys('xx') #enter scrapper fb account
 z: WebElement = driver.find_element(by=By.ID,value='pass')
-z.send_keys('Sho8lSho8l')
+z.send_keys('xxx') # enter scrapper fb password
 z: WebElement = driver.find_element(by=By.XPATH,value='/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button')
 z.click()
 #time.sleep(30)
